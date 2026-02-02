@@ -1,209 +1,38 @@
-  <!DOCTYPE html>
-  <html>
-  <head>
-  	<title>Play Subway Surfers London Online</title>
-	
-    		
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<meta name="description" content="Subway Surfers is a classic endless runner game. You play as Jake, who surfs the subways and tries to escape from the grumpy Inspector and his dog."/>
-  	<meta name="keywords" content="subway surfers havana, subway surfers bali, subway surfers beijing, subway surfers berlin, subway surfers hong kong, subway surfers houston, subway surfers london, subway surfers marrakesh, subway surfers monaco, subway surfers new orleans, subway surfers peru, subway surfers buenos aires, subway surfers saint petersburg, subway surfers san francisco, subway surfers seoul, subway surfers washington"/>
-  	
-  	<!-- META FOR FACEBOOK -->
-  	<meta property="og:site_name" content="subway-surfers.me"/>
-  	<meta property="og:rich_attachment" content="true"/>
-  	<meta property="og:type" content="website"/>
-  	<meta property="og:url" content="https://subway-surfers.me/london"/>
-  	<meta property="og:image" content="feature.jpg"/>
-  	<meta property="og:image:width" content="1000"/>
-  	<meta property="og:image:height" content="649"/>
-  	<meta property="og:title" content="Play Subway Surfers Online"/>
-  	<meta property="og:description" content="Subway Surfers is a classic endless runner game. You play as Jake, who surfs the subways and tries to escape from the grumpy Inspector and his dog."/>
-  	<!-- END META FOR FACEBOOK -->
-	
-	<link rel="apple-touch-icon" sizes="180x180" href="https://subway-surfers.me/apple-touch-icon.png">
-  	<link rel="icon" type="image/png" sizes="32x32" href="https://subway-surfers.me/favicon-32x32.png">
-  	<link rel="icon" type="image/png" sizes="16x16" href="https://subway-surfers.me/favicon-16x16.png">
-  	<link rel="manifest" href="https://subway-surfers.me/site.webmanifest">
-  	
-  	<script src="https://subway-surfers.me/jquery-3.6.0.min.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Subway Surfers: London</title>
+<script type="text/javascript" src="4399.js"></script>
+<script>
+        window.config = {
+            loader: 'unity',
+            debug: false,
+            maxRatio: 16 / 9,
+            minRatio: 9 / 16,
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1M36QLPPW"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+            title: 'Subway Surfers: London',
+            thumbnail: './img.png',
+            numScreenshots: 4,
 
-      gtag('config', 'G-Y1M36QLPPW');
+            unityVersion: '2019.2.0f1',
+            unityWebglBuildUrl: 'Build\/London.json',
+
+            fileSize: 36,
+            cachedDecompressedFileSizes: {
+                'London.asm.code.unityweb': 9057207,
+                'London.asm.framework.unityweb': 89454,
+                'London.asm.memory.unityweb': 1004456,
+                'London.data.unityweb': 18923630,
+                'London.wasm.code.unityweb': 7336887,
+                'London.wasm.framework.unityweb': 93785,
+            },
+        };
     </script>
-    
-	<script async="async" data-cfasync="false" src="//arsnivyr.com/1?z=5560054"></script>
-		
-  </head>
-
-  <body>
-	
-	<h1 class="hdedin">Subway Surfers London Play Online</h1>
-    <h2 class="hdedin">What is Subway Surfers London?</h2>
-	
-		<style>
-  	iframe {
-      border-width: 0px;
-      overflow: hidden;
-      background-color: #000000;
-  	}
-
-  	#gameContainer {
-  		display: flex;
-  		align-items: center;
-  		justify-content: center;
-  	}
-
-    div.absolute {
-      position: absolute;
-      width: 160px;
-      height: 600px;
-    }
-
-    #addthis {
-      margin-top: 10px;
-	  height:47px;
-    }
-
-    .hdedin {
-      display: none;
-    }
-	
-	#other-games {
-		margin-top: 10px;
-		text-align: center;
-	}
-	
-	#other-games a {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	</style>
-	
-	<div id="gameContainer">
-		<iframe id="gameFrame" src="main.html" scrolling="no"></iframe>
-	</div>
-
-	<script type="text/javascript">
-    $( document ).ready(function() {
-        UpdateUI();
-    });
-
-    $( window ).resize(UpdateUI);
-	  
-	  function UpdateUI()
-    {
-      var maxWidth = 1500;
-      var minWidth = 700;
-      var width = $(window).width();
-      var height = $(window).height();
-      console.log(width);
-
-      var gameWidth = Math.min(Math.max(Math.round(width * 0.7), minWidth), maxWidth);
-      var gameHeight = Math.round(gameWidth * 0.64);
-
-      $("#gameFrame").width(gameWidth).height(gameHeight);
-
-      var marginTop = (height - gameHeight) / 2 - 50;
-      if (marginTop > 0)
-      {
-        $("#gameContainer").css('margin-top', marginTop);
-        //$("#addthis").show();
-      }
-      else
-      {
-        //$("#addthis").hide();
-      }
-
-      var top = height / 2 - 300 - 50;
-      var freeSpace = $(window).width() / 2 - gameWidth / 2;
-
-      if (freeSpace > 160 + 30)
-      {
-          $("#cpm_left").show();
-          $("#cpm_right").show();
-          $("#cpm_left").css({top: top, left: 30});
-          $("#cpm_right").css({top: top, right: 30});
-      }
-      else
-      {
-          $("#cpm_left").hide();
-          $("#cpm_right").hide();
-      }
-    }
-    </script>
-
-    <script async src="https://ssl.cdne.cpmstar.com/cached/js/lib.js"></script>
-     <div id="cpm_left" class="div-85119 absolute"></div>
-     <script>
-     (function(w,pid){
-     var y = "cpmstarx", els = w.document.getElementsByClassName("div-"+pid), pindex = els.length-1, el = els[pindex];
-     w[y]=w[y]||{};(w[y].libcmd=w[y].libcmd||[]).push({kind:'asynctagfetch',el:el,pid:pid,pindex:pindex});
-     })(window,85119);
-    </script>
-
-    <script async src="https://ssl.cdne.cpmstar.com/cached/js/lib.js"></script>
-     <div id="cpm_right" class="div-85098 absolute"></div>
-     <script>
-     (function(w,pid){
-     var y = "cpmstarx", els = w.document.getElementsByClassName("div-"+pid), pindex = els.length-1, el = els[pindex];
-     w[y]=w[y]||{};(w[y].libcmd=w[y].libcmd||[]).push({kind:'asynctagfetch',el:el,pid:pid,pindex:pindex});
-     })(window,85098);
-    </script>
-	
-	<div id="other-games">
-		<a href="https://subway-surfers.me">Zurich</a>
-		<a href="https://subway-surfers.me/bali">Bali</a>
-		<a href="https://subway-surfers.me/berlin">Berlin</a>
-		<a href="https://subway-surfers.me/buenos-aires">Buenos Aires</a>
-		<a href="https://subway-surfers.me/havana">Havana</a>
-		<a href="https://subway-surfers.me/hong-kong">Hong Kong</a>
-		<a href="https://subway-surfers.me/houston">Houston</a>
-		<a href="https://subway-surfers.me/london">London</a>
-		<a href="https://subway-surfers.me/marrakesh">Marrakesh</a>
-		<a href="https://subway-surfers.me/monaco">Monaco</a>
-		<a href="https://subway-surfers.me/new-orleans">New Orleans</a>
-		<a href="https://subway-surfers.me/peru">Peru</a>
-		<a href="https://subway-surfers.me/saint-petersburg">Saint Petersburg</a>
-		<a href="https://subway-surfers.me/san-francisco">San Francisco</a>
-		<a href="https://subway-surfers.me/seoul">Seoul</a>
-		<a href="https://subway-surfers.me/washington">Washington</a>
-	</div>
-	
-    <p class="hdedin">We are thrilled to give you the opportunity to embark on an adventure through this city with this fantastic new endless runner game called Subway Surfers: Havana! Havana is the capital city of Cuba and one of the most beautiful cities in the entire world, but it's also a city that most people can't travel to how they want and when they want to.</p>
-    <p class="hdedin">Our administrative team is excited to continue the Subway Surfers World Tour by inviting you to the most recent exotic location in these 3D endless runner games, which is the wonderful Peru, where we know you will have a blast from beginning to end.</p>
-    <p class="hdedin">Bali, one of the world's most well-known tourist destinations, is the current location of the Subway Surfers World Tour Games series. You can now visit Bali through this 3D endless runner game without ever having to leave your seat in front of your computer or phone. Are you prepared for a brief online vacation?</p>
-    <h2 class="hdedin">How to master Subway Surfers</h2>
-    <p class="hdedin">Our administrative team is excited to share with you the game called Subway Surfers Zurich, where you visit this very important city in Switzerland, right now. We want to give you the opportunity to travel the entire world in our series of Subway Surfers Games online for browsers, which you can find on our website.</p>
-    <h2 class="hdedin">Without a doubt, Saint Petersburg ranks among the most picturesque cities in all of Russia, particularly in the winter. Since not all of you have access to easy travel, the next best thing you could do is explore this city by playing online Subway Surfers World Tour Games, like you are doing right now with this edition that features this city!</h2>
-    <p class="hdedin">The Subway Surfers World Tour Games series, as the name implies, takes you on a journey through the largest capital cities in nations all over the world where you get to explore their subway systems while being pursued by a police officer for doing graffiti. The most recent location we invite you to explore is Marrakesh.</p>
-    <p class="hdedin">Houston, there is no problem; only good news! The most recent city that players on our website have the chance to enjoy exploring through new Subway Surfers World Tour Games, games that we always make sure to bring over as often as possible, is this highly-popular city from Texas, from where NASA sends people out into space on rockets!</p>
-    <p class="hdedin">Honk Kong is the newest city you can explore through the Subway Surfers World Tour Games series on our website. We are extremely happy to be able to share it with you all for free because we have all thoroughly enjoyed playing it from beginning to end. So why wouldn't the same be true for you too, even if you've never played any of these endless runner games 3d before?</p>
-	<p class="hdedin">You will need to sprint through the streets of Havana with the graffiti artist character of your choice, dodging any obstacles that get in your way because doing so will slow you down and if you get caught by the people chasing you, the game is over and you have to restart it.</p>
-	<p class="hdedin">Use the up arrow to jump over obstacles, the down arrow to slide under them, and the left and right arrows to move into any of these directions to dodge them.</p>
-	<p class="hdedin">Instead, keep moving forward while running or skating (you can activate the skateboard using the spacebar), and try to collect as many coins as you can to raise your score and use the coins to buy new skins or hoverboards in the shop.</p>
-	<p class="hdedin">Since this is an endless running game, try to cover as much ground as you can before being caught. However, you should also try to collect as many coins as you can to raise your score. If you can, try to collect the power-ups, upgrades, and bonus items that are scattered throughout the tracks.</p>
-	<p class="hdedin">As you would expect from the format, you need to try collecting as many coins along the course as you can because the more of them you have, the bigger your score becomes, allowing you to unlock new boards, skins, and characters! Grab the surfboard upgrade and press space to activate it, using it to get ahead even faster!</p>
-
-    <a href="privacy.html" class="hdedin">Privacy Policy</a>
-	
-	<!-- BEGIN CPMSTAR ANCHOR AD CODE -->
-	<script type="text/javascript">
-		var cpmstar_anchorad_settings = {
-			poolid: 85106, //Pool ID assigned by CPMStar
-			dir: 1
-			};
-
-		(function (d, t, s) { t = d.createElement('script'); t.type = 'text/javascript'; t.src = (d.location.protocol == 'https:'?'//server':'//cdn') + '.cpmstar.com/cached/js/anchorad_v100.pack.js'; t.async = true; s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(t, s); })(document, {}, {});
-	</script>
-	<!-- END CPMSTAR ANCHOR AD CODE -->
-
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"b701137bead941fbb6514322bf0bedca","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</head>
+<body>
+<script src="./loaders/v3/master-loader.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"b701137bead941fbb6514322bf0bedca","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
-  </html>
+</html>
