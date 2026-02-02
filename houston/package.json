@@ -1,0 +1,19 @@
+{
+  "name": "subwayhouston",
+  "version": "1.0.0",
+  "description": "Subway Surfers Houston unity",
+  "main": "index.html",
+  "unpkg": "index.html",
+  "files": [
+    "Build/",
+    "*.js",
+    "index.html",
+    "favicon.ico"
+  ],
+  "keywords": [
+    "unity",
+    "webgl",
+    "game"
+  ],
+  "license": "ISC"
+}

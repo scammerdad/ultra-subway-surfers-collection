@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>504 Games Launcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="launcher-container">
+        <h1>504 GAMES</h1>
+        <!-- The grid now automatically handles rows and columns -->
+        <div class="game-grid">
+            <!-- Example Game Item 1 (replace href, img src, and text as needed) -->
+            <a href="houston/index.html" class="game-link">
+                <div class="game-item" onclick="createRipple(event)">
+                    <img src="houston.ico" alt="Subway Surfers Houston">
+                    <span>Subway Surfers Houston</span>
+                </div>
+            </a>
+            <a href="zurich/index.html" class="game-link">
+                <div class="game-item" onclick="createRipple(event)">
+                    <img src="zurich.ico" alt="Subway Surfers Zurich">
+                    <span>Subway Surfers Zurich</span>
+                </div>
+            </a>
+            <a href="#" class="game-link">
+                <div class="game-item" onclick="createRipple(event)">
+                    <img src="game3_icon.png" alt="Game 3">
+                    <span>game 3</span>
+                </div>
+            </a>
+             <a href="#" class="game-link">
+                <div class="game-item" onclick="createRipple(event)">
+                    <img src="game4_icon.png" alt="Game 4">
+                    <span>game 4</span>
+                </div>
+            </a>
+             <a href="#" class="game-link">
+                <div class="game-item" onclick="createRipple(event)">
+                    <img src="game5_icon.png" alt="Game 5">
+                    <span>game 5</span>
+                </div>
+            </a>
+            <!-- Add many more items here; the grid will form new rows -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
